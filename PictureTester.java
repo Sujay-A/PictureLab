@@ -13,7 +13,7 @@ public class PictureTester
   {
     Picture beach = new Picture("images/beach.jpg");
     beach.explore();
-    beach.keepOnlyBlue();
+    beach.grayscale();
     beach.explore();
   }
   
